@@ -16,7 +16,7 @@ header {
 h1 {
     font-size: 2rem;
     color: var(--cor-5);
-     font-weight: 700;
+    font-weight: 700;
 }
 
 nav {
