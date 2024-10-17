@@ -1,0 +1,15 @@
+@font-face {
+    font-family: '1';
+    src: url('/fontes/fontes1/Happy\ Nightday.otf');
+    font-weight: normal;
+    
+    font-style: normal;
+  }
+
+:root{
+    --cor-1: #F3F8FF;
+    --cor-2: #DEECFF;
+    --cor-3: #C6CFFF;
+    --cor-4: #af99df;
+    --cor-5: #624E88;
+}
