@@ -1,4 +1,4 @@
-const url = '/dados/dados_felinos'
+const url = 'https://github.com/danieleheckel/api.json/blob/main/dados/dados_felinos.js'
 console.log(url);
 
 async function VIG() {
