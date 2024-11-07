@@ -1,10 +1,18 @@
 @font-face {
-    font-family: '1';
-    src: url('/fontes/fontes1/Happy\ Nightday.otf');
-    font-weight: normal;
+  font-family: '1';
+  src: url('/fontes/fontes1/Happy.otf');
+  font-weight: normal;
     
-    font-style: normal;
-  }
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '2';
+  src: url('/fontes/fontes2/Pie1.ttf');
+  font-weight: normal;
+    
+  font-style: normal;
+}
 
 :root{
     --cor-1: #F3F8FF;
@@ -12,4 +20,19 @@
     --cor-3: #C6CFFF;
     --cor-4: #af99df;
     --cor-5: #624E88;
+    --cor-6: #492E87;
+}
+
+@keyframes mudarCor {
+  0% {
+    -webkit-text-stroke: 0.5px #5305ad; 
+  }
+
+  50% { 
+    -webkit-text-stroke: 0.5px #fff;
+  } 
+
+  100% { 
+  -webkit-text-stroke: 0.5px #5305ad;
+  }
 }

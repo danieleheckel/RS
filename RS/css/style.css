@@ -14,15 +14,24 @@ header {
 }
 
 h1 {
-    font-size: 2rem;
-    color: var(--cor-5);
+    font-size: 3rem;
+    color: var(--cor-3);
     font-weight: 700;
+    letter-spacing: 3px;
+    font-family: '1';
+    text-shadow: 
+        3px 0 0 var(--cor-5),
+        0 0 10px var(--cor-5),
+        0 0 0 var(--cor-5),
+        0 0 0 var(--cor-5);    
 }
 
 nav {
     display: flex;
     justify-content: center;
     font-weight: 400;
+    font-family: '2';
+
 }
 
 nav a {
@@ -30,12 +39,30 @@ nav a {
     color: var(--cor-4);
     margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
+    
 }
 
 nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
+    color: var(--cor-5);
+}
+
+.graficos-container {
+    margin: 5rem;
+}
+
+.graficos-container__texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--cor-6) solid 2px;
+}
+
+span {
+    font-weight: bold;
+    color: var(--cor-5);
 }
 
 footer {
@@ -47,4 +74,9 @@ footer {
     width: 100%;
     height: 3rem;
     margin-top: 2rem;
+    font-family: '2';
+}
+
+footer p 
+{ animation: mudarCor 5s infinite; padding: 20px; text-align: center;
 }
