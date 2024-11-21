@@ -18,14 +18,14 @@
     --cor-1: #F3F8FF;
     --cor-2: #DEECFF;
     --cor-3: #C6CFFF;
-    --cor-4: #af99df;
+    --cor-4: #8f77c4;
     --cor-5: #624E88;
     --cor-6: #492E87;
 }
 
 @keyframes mudarCor {
   0% {
-    -webkit-text-stroke: 0.5px #5305ad; 
+    -webkit-text-stroke: 0.5px #fded5d; 
   }
 
   50% { 
@@ -33,6 +33,6 @@
   } 
 
   100% { 
-  -webkit-text-stroke: 0.5px #5305ad;
+  -webkit-text-stroke: 0.5px #fded5d;
   }
 }
