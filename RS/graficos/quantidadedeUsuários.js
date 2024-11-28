@@ -13,21 +13,21 @@ async function quantidadeUsuariosPorRede() {
             y: quantidadeDeUsuarios, 
             type: 'bar',
             marker: {
-                color: getCSS('--primary-color')
+                color: getCSS('--cor-6')
             }
         }
     ]
 
     const laytout = {
-        plot_bgcolor: getCSS('--bg-color'),
-        paper_bgcolor: getCSS('--bg-color'),
+        plot_bgcolor: getCSS('--cor-2'),
+        paper_bgcolor: getCSS('--cor-3'),
         title: {
             text: 'Redes sociais com mais usuários',
-            x: 0,
+            x: 2,
             font: {
-                color: getCSS('--primary-color'),
+                color: getCSS('--cor-5'),
                 size: 30,
-                font: getCSS('--font')
+                FontFace: getCSS('1')
             }
         },
         xaxis: {
@@ -35,7 +35,7 @@ async function quantidadeUsuariosPorRede() {
             title: {
                 text: 'Nome das redes',
                 font: {
-                    color: getCSS('--secondary-color')
+                    color: getCSS('--cor-6')
                 }
             }
         },
@@ -44,7 +44,7 @@ async function quantidadeUsuariosPorRede() {
             title: {
                 text: 'Bilhões de usuários ativos',
                 font: {
-                    color: getCSS('--secondary-color')
+                    color: getCSS('--cor-6')
                 }
             }
         }

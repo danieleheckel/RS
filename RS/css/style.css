@@ -31,6 +31,7 @@ nav {
     justify-content: center;
     font-weight: 400;
     font-family: '2';
+    animation: mudarCor 5s infinite; padding: 20px; text-align: center;
 
 }
 
@@ -50,7 +51,7 @@ nav a:hover {
 }
 
 .graficos-container {
-    margin: 5rem;
+    margin: 2rem;
 }
 
 .graficos-container__texto {
